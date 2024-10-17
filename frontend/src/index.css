@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.common-input{
+  @apply mt-1 block w-full px-3 py-2 border border-gray-700 rounded-md shadow-sm focus:outline-none sm:text-sm; 
+}
+.common-btn{
+  @apply mt-1 block w-full px-3 py-2 border border-gray-700 rounded-md shadow-sm focus:outline-none sm:text-sm bg-black text-white hover:bg-blue-700
+
+}
