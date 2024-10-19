@@ -6,7 +6,7 @@ import { UserData } from "./context/UserContext";
 import Navbar from "./compents/Navbar";
 
 import PinPage from "./pages/PinPage";
-import Create from "./pages/create";
+import Create from "./pages/Create";
 import Account from "./pages/Account";
 import UserProfile from "./pages/UserProfile";
 import TermsAndConditions from "./pages/TermsAndConditions";

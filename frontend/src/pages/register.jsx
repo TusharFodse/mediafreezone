@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import mediafreezone from "C:/Tushar/Printest clone/frontend/src/assets/mediafreezonelogo.png";
+import mediafreezone from '../assets/mediafreezonelogo.png';
 import { Link, useNavigate } from "react-router-dom";
 import { UserData } from "../context/UserContext";
 import { PinData } from "../context/PinContext"; // Adjust the path as necessary
