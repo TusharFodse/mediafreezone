@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import mediafreezone from 'C:/Tushar/Printest clone/frontend/src/assets/mediafreezonelogo.png';
+import mediafreezone from '../assets/mediafreezonelogo.png';
 
 function Navbar({ user }) {
   return (
