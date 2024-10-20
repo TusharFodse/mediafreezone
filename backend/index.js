@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 import cloudinary from 'cloudinary';
 // import pinRoutes from './routes/Pinroute';
 import path from "path"
-import cors from 'cors';
+// import cors from 'cors';
 
 
 
