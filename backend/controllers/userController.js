@@ -7,7 +7,7 @@ import genrateToken from "../utils/genrateToken.js";
 
 console.log('userController loaded');
 export const registerUser= TryCatch(async(req,res)=>{
-    const {name, email, password}=req.body;
+    try{const {name, email, password}=req.body;
 
        let user =await User.findOne({email})
 
@@ -30,7 +30,10 @@ export const registerUser= TryCatch(async(req,res)=>{
        res.status(201).json({
         user,
         message:"user register"
-       })
+       })}catch(e){
+        console.log("error login",e)
+       }
+        
 })
 
 export const loginUser = TryCatch(async(req,res)=>{
