@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 import cloudinary from 'cloudinary';
 // import pinRoutes from './routes/Pinroute';
 import path from "path"
-// import cors from 'cors';
+import cors from 'cors';
 
 
 
@@ -26,12 +26,12 @@ const app =express();
 
 const port=process.env.PORT;
 
-// app.use(
-//   cors({
-//     origin: 'https://mediafreezone-20.onrender.com/', // Replace with your frontend's URL
-//     credentials: true, // This allows cookies to be sent
-//   })
-// );
+app.use(
+  cors({
+    origin: 'https://mediafreezone-20.onrender.com/', // Replace with your frontend's URL
+    credentials: true, // This allows cookies to be sent
+  })
+);
 
 //Using middlewares
 app.use(express.json())
