@@ -52,6 +52,9 @@ app.get("*",(req,res)=>{
 
 })
 
+console.log('JWT_SEC:', process.env.JWT_SEC);
+
+
 
 
 
