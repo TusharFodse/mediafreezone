@@ -28,7 +28,7 @@ const port=process.env.PORT;
 
 app.use(
   cors({
-    origin: 'https://mediafreezone-29.onrender.com/', // Replace with your frontend's URL
+    origin: 'https://mediafreezone-thbk.vercel.app/', // Replace with your frontend's URL
     credentials: true, // This allows cookies to be sent
   })
 );
