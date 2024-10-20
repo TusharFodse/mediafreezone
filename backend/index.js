@@ -5,6 +5,7 @@ import cookieParser from "cookie-parser";
 import cloudinary from 'cloudinary';
 // import pinRoutes from './routes/Pinroute';
 import path from "path"
+import cors from 'cors';
 
 
 
@@ -51,6 +52,13 @@ app.get("*",(req,res)=>{
     res.sendFile(path.join(__dirname,"frontend","dist","index.html"));
 
 })
+
+app.use(
+  cors({
+    origin: 'https://mediafreezone-20.onrender.com/', // Replace with your frontend's URL
+    credentials: true, // This allows cookies to be sent
+  })
+);
 
 console.log('JWT_SEC:', process.env.JWT_SEC);
 
