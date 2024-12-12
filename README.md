@@ -32,7 +32,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-github-username>/mediafreezon](https://github.com/TusharFodse/mediafreezone)
+   git clone https://github.com/TusharFodse/mediafreezone
    cd mediafreezone
    ```
 
