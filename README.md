@@ -32,7 +32,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-github-username>/mediafreezone
+   git clone https://github.com/<your-github-username>/mediafreezon](https://github.com/TusharFodse/mediafreezone)
    cd mediafreezone
    ```
 
@@ -73,12 +73,6 @@ To run the project locally, follow these steps:
 
 7. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-## Deployment
-
-The project is deployed and can be accessed at:
-
-- **Frontend**: [https://mediafreezone-7.onrender.com](https://mediafreezone-7.onrender.com)
-- **Backend**: Hosted on Vercel.
 
 ## Contributing
 
